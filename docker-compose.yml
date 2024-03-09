@@ -1,0 +1,9 @@
+# docker compose run auto-gpt
+
+version: "3.9"
+
+services:
+  auto-gpt:
+    build: ./
+    ports:
+      - "8000:8000"
